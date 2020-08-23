@@ -17,3 +17,4 @@ sdf = (
     )
 
 # Load the dict to SparkDF
+json_df = spark.read.json(save_path)
